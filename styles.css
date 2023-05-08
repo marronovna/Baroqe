@@ -1,12 +1,12 @@
 body {
-  font: normal 16px sans-serif;
-  font-family: "Tenor Sans", sans-serif;
+  font-family: 'Cormorant Infant', serif;
+  font-size: 21px;
   user-select: none;
 }
 
-.gallery-container h1 {
+h1 {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 80px;
   color: #58595a;
 }
 
