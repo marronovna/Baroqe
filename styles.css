@@ -17,50 +17,11 @@ body {
   color: #85878c;
 }
 
-/* Styles for the gallery */
-
-.tz-gallery {
-  padding: 40px;
-}
-
-.tz-gallery .thumbnail {
-  padding: 0;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border: none;
-  background-color: black;
-}
-
-.tz-gallery img {
-  border-radius: 2px;
-  max-height: 400px;
-  background-color: black;
-  overflow: hidden;
-}
-
-.tz-gallery .caption {
-  padding: 26px 30px;
-  text-align: center;
-  background-color: black;
-}
-
-.tz-gallery .caption h3 {
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-}
-
-.tz-gallery .caption p {
-  font-size: 12px;
-  color: #7b7d7d;
-  margin: 0;
-}
-
 .container_pm {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 60px;
 }
 
 
@@ -72,6 +33,10 @@ body {
 
   .obj {
     min-width: 70%;
+  }
+
+  .gallery-container h1 {
+    margin-top: 40px;
   }
 }
 
