@@ -1,5 +1,5 @@
 body {
-  font-family: 'Cormorant Infant', serif;
+  font-family: "Cormorant Infant", serif;
   font-size: 21px;
   user-select: none;
 }
@@ -23,7 +23,6 @@ h1 {
   align-items: center;
   gap: 60px;
 }
-
 
 @media screen and (max-width: 600px) {
   .container_pm {
