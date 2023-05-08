@@ -46,7 +46,6 @@ h1 {
   }
 
   .obj {
-    overflow: hidden;
     max-width: 50%;
   }
 }
@@ -55,4 +54,11 @@ h1 {
   max-width: 100%;
   max-height: 250px;
   border-radius: 15px;
+  box-shadow: 0 0 20px #181616;
+  transition: 0.5s;
+}
+
+.obj img:hover {
+  box-shadow: 0 0 20px #c5a4a0a1;
+  transition: 0.5s;
 }
