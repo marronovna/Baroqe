@@ -24,6 +24,17 @@ h1 {
   gap: 60px;
 }
 
+@media screen and (max-width: 300px) {
+  
+  iframe {
+    max-width: 240px;
+  }
+  .page-description {
+    font-size: 16px !important; 
+  }
+  
+  }
+
 @media screen and (max-width: 600px) {
   .container_pm {
     display: flex;
