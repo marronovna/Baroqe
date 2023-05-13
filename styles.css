@@ -37,6 +37,10 @@ h1 {
   .gallery-container h1 {
     margin-top: 40px;
   }
+
+  iframe {
+    max-width: 300px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
