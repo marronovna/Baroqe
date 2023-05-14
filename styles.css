@@ -6,8 +6,12 @@ body {
 
 h1 {
   text-align: center;
-  margin-top: 80px;
-  color: #58595a;
+  margin-top: 90px;
+  color: #58595a; 
+}
+
+h1 {
+  text-shadow: 0 0 5px #fff;
 }
 
 .gallery-container p.page-description {
@@ -74,10 +78,11 @@ h1 {
 }
 
 .obj img:hover {
-  box-shadow: 0 0 20px #c5a4a0a1;
+  box-shadow: 0 0 25px #c5a4a0bb, 
+  0 0 20px #ffffff65,
+  0 0 25px #9c8c8abb;
   transition: 0.5s;
 }
-
 
 /* скролбар bg */
 ::-webkit-scrollbar {
